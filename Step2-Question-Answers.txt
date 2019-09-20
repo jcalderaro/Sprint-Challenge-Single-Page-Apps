@@ -1,0 +1,34 @@
+
+# Step 2
+
+<> Question <>
+
+- [ ]  Explain benefit(s) using `client-side routing`?
+
+<> Answer <>
+
+Firstly, `Client-Side Routing` is broken into two parts.
+    (1) Routing is the mechanism in which requests are connected by some code. 
+        The way you navigate through a website or web-application. By clicking on a link,
+            the URL changes and provides the user with either new data or a new web page.
+
+From there, it can adapt to Two different specialties. Client-Side, or Server-Side.
+
+    (2) Server-Side Routing is when an adjustment to the url occurs, typically by clicking
+            a link on the page - the entire site will refresh and a new document is served.
+            This happens because a new GET request is sent to the server, which discards
+            the old page state and generates a new one. 
+
+            This is generally okay because it's been the standard for a long time, 
+                however it takes a long time to reload and is inefficient. If the site
+                is very large or the user has slow speed, it becomes unoperable. 
+
+    (3) Client-Side Routing is when the rerouting is handled internally by the JavaScript that 
+            is loaded on the page. When a user clicks on a link, the URL will change but the 
+            server request is prevented. The state of the application will change, like if it has 
+            to update or render a new component, but the entire page will not force refresh. 
+
+            The benefit to using this is that less data is being processed, and routing between
+                views is faster, smoother, and easier to implement. However, the drawback is 
+                that the initial loading render takes long because all of the state data has to
+                get processed. 
