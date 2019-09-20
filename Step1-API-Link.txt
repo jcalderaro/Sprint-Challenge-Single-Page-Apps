@@ -1,0 +1,6 @@
+
+# Step 1
+
+In this challenge, you will create a Single Page Application complete with Client-Side Routing. 
+It must consume a 3rd party API service (based on the TV show [Rick and Morty]
+(https://rickandmortyapi.com/documentation).)
